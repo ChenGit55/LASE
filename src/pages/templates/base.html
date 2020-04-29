@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}{% endblock %}</title>
+    <link rel="stylesheet" href="{% static 'bootstrap/css/bootstrap.min.css' %}">
+</head>
+<body>
+    {% include 'navbar.html' %}
+    {% block body %}
+
+    {% endblock %}
+
+
+<footer>
+    <h5 align="center">Los Angeles Soccer Evolution®</h5>
+</footer>
+    {% include 'scripts.html' %}
+</body>
+</html>
