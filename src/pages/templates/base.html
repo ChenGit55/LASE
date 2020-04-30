@@ -5,9 +5,11 @@
     <meta charset="UTF-8">
     <title>{% block title %}{% endblock %}</title>
     <link rel="stylesheet" href="{% static 'bootstrap/css/bootstrap.min.css' %}">
+    <link rel="stylesheet" href="{% static 'my.css' %}">
 </head>
 <body>
     {% include 'navbar.html' %}
+    <br><br><br><br>
     {% block body %}
 
     {% endblock %}
