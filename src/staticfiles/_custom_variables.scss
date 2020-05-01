@@ -1,0 +1,8 @@
+$lase-color:    #464d67;
+$lase-color-2:  #be8d52;
+$white:         #ffffff;
+$primary:       $lase-color !default;
+$dropdown-bg:                       $lase-color !default;
+$dropdown-link-color:               $white !default;
+$dropdown-link-hover-color:         darken($lase-color, 5%) !default;
+$dropdown-link-hover-bg:            $white !default;

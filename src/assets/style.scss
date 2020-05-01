@@ -1,0 +1,10 @@
+@import "custom_variables";
+@import "bootstrap/scss/bootstrap";
+
+h1{
+	text-align: center;
+	font-size: 50px;
+	font-family: helvetica;
+	font-weight: bold;
+	color: $primary;
+}

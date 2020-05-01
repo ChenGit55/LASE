@@ -1,0 +1,25 @@
+{
+  "name": "LASE",
+  "version": "1.0.0",
+  "description": "Los Angeles Soccer Evolution - rework web site",
+  "main": "index.js",
+  "scripts": {
+    "sasmin": "node-sass --watch ./src/staticfiles/style.scss src/staticfiles/style.min.css -output --compressed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChenGit55/LASE.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChenGit55/LASE/issues"
+  },
+  "homepage": "https://github.com/ChenGit55/LASE#readme",
+  "dependencies": {
+    "bootstrap": "^4.4.1",
+    "jquery": "3.4.1",
+    "popper.js": "^1.16.1"
+  }
+}
