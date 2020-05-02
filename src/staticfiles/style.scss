@@ -8,3 +8,25 @@ h1{
 	font-weight: bold;
 	color: $primary;
 }
+
+h2{
+	font-size: 40px;
+	font-family: helvetica;
+	font-weight: bold;
+	color: $primary;
+}
+
+.gallery_product
+{
+    margin-bottom: 30px;
+}
+.gallery_product .title{
+  color:#fff;
+  margin: 0;
+  position:relative;
+  bottom:50px;
+  left:10px;
+}
+.gallery_product .title small{
+  display:block;
+}

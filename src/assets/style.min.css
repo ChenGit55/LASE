@@ -7144,3 +7144,10 @@ h1 {
   font-family: helvetica;
   font-weight: bold;
   color: #464d67; }
+
+h2 {
+  text-align: center;
+  font-size: 40px;
+  font-family: helvetica;
+  font-weight: bold;
+  color: #464d67; }
