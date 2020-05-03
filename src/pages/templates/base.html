@@ -2,19 +2,15 @@
 {% load static %}
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8"> 
     <title>{% block title %}{% endblock %}</title>
     <link rel="stylesheet" href="{% static 'style.min.css' %}">
 </head>
 <body>
     {% include 'navbar.html' %}
-    <br><br><br><br>
     {% block body %}
 
     {% endblock %}
-
-
 <footer>
     <h5 align="center">Los Angeles Soccer Evolution®</h5>
 </footer>
