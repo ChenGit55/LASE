@@ -7138,11 +7138,26 @@ a.text-dark:hover, a.text-dark:focus {
     color: inherit;
     border-color: #dee2e6; } }
 
-.home {
-  text-align: center; }
-
-.home img {
-  z-index: -1;
-  position: absolute;
+.homeboxbg {
+  color: white;
   width: 100%;
-  left: 0; }
+  height: 500px;
+  background-image: url("imgs/home.png");
+  background-size: 100%;
+  position: absolute;
+  text-align: center;
+  align-items: center;
+  padding-top: 120px; }
+
+.homebox {
+  background-color: rgba(70, 77, 103, 0.5);
+  padding: 20px; }
+
+.homebox h1 {
+  font-weight: bold;
+  font-family: Helvetica;
+  font-size: 70px; }
+
+.homebox h6 {
+  padding: 5px;
+  font-size: 20px; }

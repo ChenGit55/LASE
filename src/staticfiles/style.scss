@@ -1,13 +1,31 @@
 @import "custom_variables";
 @import "bootstrap/scss/bootstrap";
 
-.home{
+
+.homeboxbg{
+	color: white;
+	width: 100%;
+	height: 500px;
+	background-image: url('imgs/home.png');
+	background-size: 100%;
+	position: absolute;
 	text-align: center;
+	align-items: center;
+	padding-top: 120px;
 }
 
-.home img{
-	z-index: -1;
-	position: absolute;
-	width: 100%;
-	left: 0;
+.homebox{
+	background-color: rgba($color: $primary, $alpha: 0.5);
+	padding: 20px;
+}
+
+.homebox h1{
+	font-weight: bold;
+	font-family: Helvetica;
+	font-size: 70px;
+}
+
+.homebox h6{
+	padding: 5px;
+	font-size: 20px;
 }
